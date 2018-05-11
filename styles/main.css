@@ -1,0 +1,19 @@
+.nav a {
+    color: #5a5a5a;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 14px 10px;
+    text-transform: uppercase;
+  }
+
+  .nav li {
+    display: inline;
+  }
+
+  .nav ul {
+      margin-top: 20px;
+  }
+
+  .body {
+     background-image: url("#");
+  }
