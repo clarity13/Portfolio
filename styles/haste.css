@@ -1,0 +1,114 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+hr {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title-text {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sub-header {
+    font-size: 16px;
+    text-align: center;
+    padding-top:10px;
+}
+
+.my-navbar {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+}
+
+.navbar-trans {
+    background: transparent;
+}
+
+.my-navbar .navbar-brand {
+  color: white;
+}
+
+.my-navbar .navbar-nav li a {
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
+.jumbotron {
+    background: url("../img/haste-background.jpg") no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.haste-info {
+    padding-top: 20px;
+}
+.img-fluid.haste-logo {
+    max-width: 14%;
+    max-height: 14%;
+}
+
+/*.img-fluid {
+    max-width: 14%;
+    max-height: 14%;
+}
+*/  
+
+.img-fluid.design-process {
+    max-width: 80%;
+    max-height:80%;
+    margin: auto;
+    
+}
+
+.down-arrow {
+    max-width: 5%;
+    max-height: 5%;
+    padding-top: 20px;
+}
+
+/*.ten-layout {
+    padding: 88px 195px;
+}
+*/
+
+@media (max-width: 497px) {
+    .col-12 {
+        text-align: center;
+    }
+    .img-fluid.design-process {
+    }
+}
+
+@media (max-width: 768px) {
+    .col-12{
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-fluid.design-process {
+        margin-top: 40px;
+        padding-bottom: 80px;
+    }
+    .col-lg-12 {
+        padding-left: 97.5px;
+        padding-right: 97.5px;
+    }
+
+    .col-md-6 {
+        padding-left: 97.5px;
+        padding-right: 97.5px;
+    }
+}
