@@ -9,6 +9,11 @@ hr {
     padding-bottom: 20px;
 }
 
+.col-12.body-title {
+text-align: center;
+margin-top: 40px;
+}
+
 .title-text {
     font-size: 24px;
     text-align: center;
@@ -86,8 +91,6 @@ hr {
 @media (max-width: 497px) {
     .col-12 {
         text-align: center;
-    }
-    .img-fluid.design-process {
     }
 }
 
