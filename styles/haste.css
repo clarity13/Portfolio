@@ -28,6 +28,40 @@ margin-top: 40px;
 margin-bottom: 40px;
 }
 
+.grid-padding-left {
+    padding-left: 97.5px;
+}
+.grid-padding-right {
+    padding-right: 97.5px;
+}
+
+.layout-pref {
+    margin: 20px auto 20px auto;
+}
+
+.lofi {
+    margin: 20px auto 40px auto;
+    height: 50%;
+}
+
+.haste-color {
+    margin: auto;
+    margin-top: 0px;
+}
+
+.hifi {
+    margin: 20px auto 40px auto;
+    height: 50%; 
+}
+
+.home-pref {
+    margin: 20px auto 20px auto;
+}
+
+.italic {
+    margin-bottom: 40px;
+}
+
 .img-fluid.persona {
     margin: auto;
     margin-top: 20px;
@@ -74,6 +108,7 @@ margin-bottom: 40px;
     background: url("../img/haste-background.jpg") no-repeat center center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: -56px;
     
 }
 .haste-info {
@@ -115,6 +150,10 @@ margin-bottom: 40px;
     padding-top: 20px;
 }
 
+.quantity-pref {
+    margin: 20px auto 20px auto;
+}
+
 /*.ten-layout {
     padding: 88px 195px;
 }
@@ -135,26 +174,29 @@ margin-bottom: 40px;
         margin-top: 20px;
         margin-bottom: 20px
     }
+
+    .col-12.grid-padding-left {
+        padding-left: 0;
+    }
+    .col-12.grid-padding-right {
+        padding-right: 0;
+    }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 1199) and (min-width: 992px) {
     .img-fluid.design-process {
         margin-top: 40px;
         padding-bottom: 80px;
     }
-    .col-lg-12 {
+    /*.col-lg-12 {
         padding-left: 97.5px;
         padding-right: 97.5px;
     }
+   */
+    /*.col-md-6 {
+        padding-left: 97.5px;
+        padding-right: 97.5px;
+    }
+    */
 
-    .col-md-6 {
-        padding-left: 97.5px;
-        padding-right: 97.5px;
-    }
-    .grid-padding-left {
-        padding-left: 97.5px;
-    }
-    .grid-padding-right {
-        padding-right: 97.5px;
-    }
 }
