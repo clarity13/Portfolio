@@ -1,4 +1,24 @@
-.my-navbar {
+  body, html {
+    height: 100%;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  p {
+    color: white;
+  }
+
+  .bg {
+    background-image: url("../img/about-bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .my-navbar {
     background: rgba(0, 0, 0, 0.5);
   }
   
@@ -16,3 +36,9 @@
   .navbar-toggler {
     border-color: rgb(255,255,255);
   }
+
+  .vertical-padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+

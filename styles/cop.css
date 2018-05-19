@@ -1,0 +1,188 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+canvas {
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+
+#photos {
+    column-count: 2;
+    column-gap: 0;
+    margin: 40px 75px 40px 75px;
+}
+
+#photos img {
+    width: 100% !important;
+    height: auto !important;
+    padding: 5px;
+}
+
+.align-link {
+    text-align: center;
+}
+
+.body-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.checkout {
+    margin: auto;
+}
+
+.container.cop-info {
+    padding-top: 20px;
+}
+
+.down-arrow {
+    max-width: 5%;
+    max-height: 5%;
+    padding-top: 20px;
+}
+
+.grid-padding-left {
+    padding-left: 97.5px;
+}
+.grid-padding-right {
+    padding-right: 97.5px;
+}
+
+.hifi {
+    padding: 0 10px;
+    height: 50%;
+    margin-bottom: 40px;
+}
+
+.jumbotron {
+    background: url("../img/cop-jumbo.jpg") no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -56px;
+    
+}
+
+.lofi {
+    padding: 0 10px;
+    height: 50%;
+    margin-bottom: 40px;
+}
+
+.italic {
+    margin-top: 4px;
+    margin-bottom: 40px;
+}
+
+.img-fluid.cop-logo {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.img-wrapper {
+    padding: 0 100px 0 100px;
+}
+
+.title-text {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.sub-header {
+    font-size: 16px;
+    text-align: center;
+    padding-top:10px;
+    color: white;
+}
+
+.my-navbar {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+  }
+  
+  .navbar-trans {
+      background: transparent;
+  }
+  
+  .my-navbar .navbar-brand {
+    color: white;
+  }
+  
+  .my-navbar .navbar-nav li a {
+    color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .navbar-toggler {
+    border-color: rgb(255,255,255);
+  }
+
+  .partner {
+      margin: auto;
+  }
+
+  .partner-pref {
+      margin-top: 24px;
+  }
+
+  .vertical-padding {
+      padding-top: 40px;
+      padding-bottom: 24px;
+  }
+
+  @media (max-width: 576px) {
+      .container.cop-info {
+          padding-top: 70px;
+      }
+      .col-12 {
+          text-align: center;
+          padding: 0;
+      }
+  }
+
+  @media (max-width: 768px) {
+    #photos {
+        -moz-column-count:    1;
+        -webkit-column-count: 1;
+        column-count:         1;
+    }
+
+    .grid-padding-left {
+        padding-left: 0;
+    }
+
+    .grid-padding-right {
+        padding-right: 0;
+    }
+
+    .col-12 {
+        text-align: center;
+    }
+
+    .lofi {
+        padding: 0; 
+    }
+  }
+
+  @media (min-width: 769px) {
+    .img-wrapper {
+        padding: 0;
+    }
+  }
