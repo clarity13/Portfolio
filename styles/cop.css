@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Raleway:400,500,700');
+
 body {
     margin:0;
     padding:0;
@@ -9,13 +11,30 @@ canvas {
 
 hr {
     width: 250px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 
 h4 {
     margin-top: 34px;
     margin-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    line-height: 30px;
+    
 }
 
 
@@ -33,6 +52,7 @@ h4 {
 
 .align-link {
     text-align: center;
+    margin-top: 24px;
 }
 
 .body-title {
@@ -48,6 +68,14 @@ h4 {
     padding-top: 20px;
 }
 
+.cop-color {
+    padding-bottom: 40px;
+}
+
+.cop-font {
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
 .down-arrow {
     max-width: 5%;
     max-height: 5%;
@@ -82,6 +110,12 @@ h4 {
     margin-bottom: 40px;
 }
 
+.link-italic {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    font-style: italic; 
+}
+
 .italic {
     margin-top: 4px;
     margin-bottom: 40px;
@@ -97,17 +131,28 @@ h4 {
 }
 
 .title-text {
-    font-size: 24px;
     text-align: center;
     padding-top: 20px;
     color: white;
+    font-family: 'Raleway', san-serif;
+    font-weight: bold;
+    font-size: 32px;
 }
 
+.r-medium {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 .sub-header {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding-top:10px;
     color: white;
+    font-family: 'Raleway', san-serif;
+    font-weight: normal;
 }
 
 .my-navbar {
@@ -126,6 +171,17 @@ h4 {
   .my-navbar .navbar-nav li a {
     color: white;
   }
+
+  .navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
   
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");

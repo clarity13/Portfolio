@@ -9,20 +9,38 @@ canvas {
 
 hr {
     width: 250px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 h4 {
     margin-top: 34px;
     margin-bottom: 34px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    line-height: 30px;
+    
 }
 
 .align-link {
     text-align: center;
+    margin-top: 24px;
+
 }
 
-.col-12.body-title {
+.body-title {
 text-align: center;
 margin-top: 40px;
 margin-bottom: 40px;
@@ -35,18 +53,28 @@ margin-bottom: 40px;
     padding-right: 97.5px;
 }
 
+.haste-color {
+    margin-bottom: 40px;
+}
+
+.haste-fonts {
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
 .layout-pref {
-    margin: 20px auto 20px auto;
+    margin: 24px auto 20px auto;
+}
+
+.link-italic {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    font-style: italic; 
 }
 
 .lofi {
     margin: 20px auto 40px auto;
     height: 50%;
-}
-
-.haste-color {
-    margin: auto;
-    margin-top: 0px;
 }
 
 .hifi {
@@ -69,15 +97,26 @@ margin-bottom: 40px;
 }
 
 .title-text {
-    font-size: 24px;
     text-align: center;
     padding-top: 20px;
+    font-family: 'Raleway', san-serif;
+    font-weight: bold;
+    font-size: 32px;
 }
 
+.r-medium {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 .sub-header {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
 }
 
 .my-navbar {
@@ -97,6 +136,19 @@ margin-bottom: 40px;
   color: white;
 }
 
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    
+
+}
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -112,7 +164,7 @@ margin-bottom: 40px;
     
 }
 .haste-info {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .img-fluid.haste-logo {
     max-width: 14%;
