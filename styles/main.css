@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Raleway:400,500,700');
+
 body, html {
   height: 100%;
 }
@@ -10,9 +12,18 @@ body, html {
   background-size: cover;
 }
 
-.h1 .h2 {
+h1 {
   color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
 }
+
+h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
 .inner-homepage {
   margin: auto;
   margin-top: 350px;
@@ -26,7 +37,8 @@ body, html {
 .my-btn {
   background-color: rgba(0, 0, 0, 0.5);
   color:white;
-  font-size: 18px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif
 
 
 }
@@ -36,10 +48,16 @@ body, html {
 
 .my-navbar .navbar-brand {
   color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .my-navbar .navbar-nav li a {
   color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .navbar-toggler-icon {
