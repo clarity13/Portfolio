@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Raleway:400,500,700');
+
+body, html {
+    height: 100%;   
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.gallery-block.grid-gallery {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+  
+.gallery-block.grid-gallery .heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+  
+.gallery-block.grid-gallery .heading h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+  
+.gallery-block.grid-gallery a:hover {
+    opacity: 0.8;
+}
+  
+.gallery-block.grid-gallery .item img {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+}
+  
+.gallery-block.grid-gallery .item {
+    margin-bottom: 20px;
+}
+
+.my-navbar {
+    background: rgba(0, 0, 0, 0);
+    z-index: 1050;
+}
+  
+  
+.my-navbar .navbar-brand {
+    color: black;
+}
+  
+.my-navbar .navbar-nav li a {
+    color: black;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+  
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+    border-color: black;
+}
+
+#myFooter {
+    padding-top:32px;
+}
+
+#myFooter .container {
+    text-align: center;
+}
+
+#myFooter .footer-copyright {
+    margin-bottom: 35px;
+    text-align: center;
+    color: #777;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+#myFooter a {
+    color: #282b2d;
+    font-size: 18px;
+}
+
+#myFooter li {
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+#myFooter .footer-social {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #F5F5F5;
+}
+
+#myFooter .fa {
+    font-size: 36px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #d0d0d0;
+    border-radius: 51%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 43px;
+    text-decoration: none;
+    transition:color 0.2s;
+}
+
+#myFooter .fa-linkedin:hover {
+   color: #0077B5;
+}
+
+#myFooter .fa-linkedin:focus {
+    color: #0077B5; 
+}
+
+#myFooter .fa-instagram:hover {
+    color: #FEDA77;
+}
+
+#myFooter .fa-instagram:focus {
+    color: #FEDA77;
+}
+
+#myFooter .fa-envelope-square:hover {
+    color: #81D8D0;
+
+}
+
+#myFooter .fa-envelope-square:focus {
+    color:#81D8D0;
+}
+
+@media (min-width: 576px) {
+  
+    .gallery-block.grid-gallery .scale-on-hover:hover{
+      transform: scale(1.05);
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+    }
+  }
