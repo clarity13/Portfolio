@@ -21,6 +21,13 @@ h5 {
     font-size: 16px;
 }
 
+h6 {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 p {
     color: black;
     font-family: 'Libre Baskerville', serif;
