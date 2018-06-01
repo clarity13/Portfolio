@@ -167,15 +167,16 @@ margin-bottom: 40px;
     background: url("../img/haste-background.jpg") no-repeat center center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -56px;
+    height: 700px;
+    margin-top: -193px
+}
     
 }
 .haste-info {
     padding-top: 30px;
 }
 .img-fluid.haste-logo {
-    max-width: 14%;
-    max-height: 14%;
+    max-width: 12%;
 }
 
 .checkout {
@@ -294,11 +295,17 @@ margin-bottom: 40px;
     color: #6e5494;
 }
 
+@media (max-width: 575px) {
+    .jumbotron {
+        height: 600px;
+    }
+}
+
 
 @media (max-width: 768px) {
 
     .haste-info {
-        padding-top: 55px;
+        padding-top: 210px;
     }
 
     .title-text {
@@ -336,7 +343,14 @@ margin-bottom: 40px;
     .checkout {
       padding-bottom: 40px;  
     }
+    .haste-info {
+        padding-top: 190px;
+    }
+    .jumbotron {
+        height: 700px;
+    }
 }
+
 
 
 @media (max-width: 1199) and (min-width: 992px) {

@@ -73,7 +73,7 @@ p {
 }
 
 .container.cop-info {
-    padding-top: 20px;
+    padding-top: 160px;
 }
 
 .cop-color {
@@ -108,7 +108,7 @@ p {
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -56px;
+    margin-top: -194px;
     
 }
 
@@ -299,9 +299,9 @@ p {
 }
 
   @media (max-width: 576px) {
-      .container.cop-info {
-          padding-top: 70px;
-      }
+    .container.cop-info {
+        padding-top: 180px;
+    }
       .col-12 {
           text-align: center;
           padding: 0;
